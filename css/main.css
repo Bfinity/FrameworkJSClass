@@ -32,6 +32,14 @@
 
 }
 
+.img-l{
+	float: left;
+}
+
+.img-r{
+	float: right;
+}
+
 .col-1{
 	width: 8.33%;
 }
