@@ -29,7 +29,21 @@
   p{
     background-color: orange;
   }
+}
 
+h1{
+	margin-bottom: 0;
+	line-height: 1.25;
+}
+
+h2{
+	margin-bottom: 0;
+}
+
+h4{
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .5;
 }
 
 .img-l{
@@ -49,10 +63,12 @@
 }
 
 .col-3{
+	text-align: right;
   width: 25%;
 }
 
 .col-4{
+	text-align: center;
   width: 33.33%;
 }
 
@@ -87,20 +103,3 @@
 .col-12{
   width: 100%;
 }
-
-.col-12 > ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.col-12 > ul > li {
-  float: right;
-}
-
-.col-12 > ul > li {
-  padding: .2em 1em;
-}
-
